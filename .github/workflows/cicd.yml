@@ -20,7 +20,7 @@ jobs:
       run: mvn -B package --file pom.xml
 
   security-check:
-   runs-on: ubuntu:latest
+   runs-on: ubuntu-latest
 
    steps:
    - uses: actions/checkout@v4
